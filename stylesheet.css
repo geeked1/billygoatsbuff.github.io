@@ -1,0 +1,121 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+	background-color: #73C9DC
+}
+#wrapper{
+	align-content: center;
+	text-align: center;
+	background-color: #73C9DC;
+	overflow: hidden;
+}
+#header {
+	padding-top: 180px;
+	background: url(images/backgroundBannerV2.svg) no-repeat;
+	background-size: 100%; 
+}
+nav {
+	padding-left: 50px;
+}
+#twitter{
+	float: left;
+	width: 50%;
+}
+.fb-page{
+	float: right;
+	width: 50%;
+}
+#intro {
+	
+}
+#footer{
+		
+}
+#footer p{
+	float: left;
+	font-size: 10pt;
+	padding-left: 50px;
+}
+
+#footsocial {
+	padding-right: 50px;
+}
+
+#footsocial img {
+	float: right;
+	
+}
+
+#contact {
+	text-align: left;
+	padding-left: 500px;
+}
+
+#about {
+	clear: both;
+	padding-left: 200px;
+	padding-bottom: 50px;
+	text-align: left;
+}
+.worker {
+	float: left;
+	padding-right:150px;
+}
+.worker p {
+	width: 500px;
+	padding-bottom: 150px;
+}
+
+#about aside {
+	
+}
+
+#headshot {
+	float: right;
+	padding-left: 300px;
+}
+
+#ashley-photo {
+	
+	padding-bottom: 20px;
+}
+
+#mikaela-photo {
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+#sarah-photo {
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+#kevin-photo {
+	padding-top: 20px;
+}
+
+.gallery {
+	width: 1296px;
+	margin:auto;
+}
+.gallery ul {
+	list-style: none;
+				
+}
+.gallery li{
+	float: left;
+	margin: 4px;
+}
+.gallery img {
+	display: block;
+	padding: 5px;
+	background: #37B24A;
+	border: 100px, solid, 000;
+	box-shadow: 1px 1px 2px #000;		
+}
+
+#ad {
+	padding-top:300px;
+	
+}
