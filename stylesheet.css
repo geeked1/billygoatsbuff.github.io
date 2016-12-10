@@ -151,10 +151,6 @@ img {
 	border: 100px, solid, 000;
 	box-shadow: 1px 1px 2px #000;		
 }
-.third {
-	transform: translate(-.1px);
-	padding-left: 2px;
-}
 #ad {
 	padding-top:10%;
 	position: relative;
@@ -397,8 +393,8 @@ img {
 		padding-top: 20px;
 	}
 	.gallery {
-		width: 100%;
-		margin-left: -3.5%;
+		width: auto;
+		margin-left: -4%;
 	}
 	.gallery ul {
 		list-style: none;
@@ -408,18 +404,17 @@ img {
 	.gallery li{
 		float: left;
 		margin: 4px;
-		width: 100%;
+		width: auto;
 	}
 	.gallery img {
-		display: block;
 		padding: 5px;
 		background: #37B24A;
 		border: 100px, solid, 000;
 		box-shadow: 1px 1px 2px #000;		
 	}
-	#third{
-		float: left;
-		padding-left: .5%;
+	.third {
+		transform: translate(-.1px);
+		padding-left: 2px;
 	}
 	#ad {
 		padding-top: 2%;
