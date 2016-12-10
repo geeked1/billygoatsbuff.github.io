@@ -2,6 +2,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Billy Goats Buff | About Us</title>
 <link href="stylesheet.css" rel="stylesheet" type="text/css">
 </head>
@@ -11,12 +12,21 @@
 <div id="header">
 
 <div id="navBar">
-<nav>
-	<a href="index.html">Home</a> |
-	<a href="social.html">Social</a> |
-	<a href="about.html">About Us</a> |
-	<a href="contact.html">Contact</a>
-</nav>
+<ul class="nav">
+	<li><a href="index.html">Home</a></li> 
+	<li><a href="social.html">Social</a></li> 
+	<li class="dropdown">
+		<a href="javascript:void(0)" class="dropbtn hide-mobile" onClick="window.open('about.html', '_self');">About Us</a>
+    	<div class="dropdown-content">
+			<a href="about.html#ashley" class="hide-mobile">Ashley</a>
+     		<a href="about.html#mikaela" class="hide-mobile">Mikaela</a>
+     	 	<a href="about.html#sarah" class="hide-mobile">Sarah</a>
+			<a href="about.html#kevin" class="hide-mobile">Kevin</a>
+    	</div>
+  </li>
+	<li class="hide-full"><a href="about.html">About Us</a></li>
+	<li><a href="contact.html">Contact</a></li>
+</ul>
 <hr>	
 </div>
 </div>
@@ -24,30 +34,34 @@
 <p>We are a group of graphic designers from Southern Illinois University Carbondale</p>
 <main id="about">
 	<article class="worker">
-		<h3>Ashley OBrien</h3>
+		<h3 id="ashley">Ashley OBrien</h3>
+		<div class="headshot"><img src="images/head/ashley.jpg" id="ashley-photo" /></div>
 		<p>I am Ashley O’Brien creator and Lead designer of Billy Goats Buff. I am a Senior Communication Design Student. I enjoy playing many board games, card games and video games when I am not working. I am a very competitive person when it comes to games. I spent 4 years studying Music in college when I decided it wasn’t for me. Music is still a big part of my life that I enjoy. </p>
 		<aside></aside>
 	<!--</article>
 	<article class="worker">-->
-		<h3>Mikaela Montgomery</h3>
+		<h3 id="mikaela">Mikaela Montgomery</h3>
+		<div class="headshot"><img src="images/head/mikaela.jpg" id= "mikaela-photo"/></div>
 		<p>  Hi, I’m Mikaela Montgomery! I am a Junior studying Communication Design from Southern Illinois University. My original hometown is the small town of Salem, Illinois but I am currently residing in Carbondale, Illinois. I am a student-athlete, competitively swimming for the University. I love sushi and my 7 year old little brother!</p>
 	  <aside></aside>
 	<!--</article>
 	<article class="worker"> -->
-		<h3>Sarah Signorile</h3>
+		<h3 id="sarah">Sarah Signorile</h3>
+		<div class="headshot"><img src="images/head/sarah.jpg" id="sarah-photo" /></div>
 		<p>Hi, my name is Sarah Signorile! I am a Senior at Southern Illinois University studying Communication Design, Art History, and Art Education. I’m from a small town in Illinois called Barrington. When I’m not working, I typically spend my time playing video games or playing with my two cats. </p>
 	  <aside></aside>
 	<!--</article>
 	<article class="worker">-->
-		<h3>Kevin Runyan</h3>
+		<h3 id="kevin">Kevin Runyan</h3>
+		<div class="headshot"><img src="images/head/kevin.jpg" id="kevin-photo" /></div>
 		<p>Hi, I am Kevin Runyan and I am Senior at Southern Illinois University Carbondale studying Communication Design. I graduated from Parkland College in 2015 with an Associates in Applied Science in Game Design and 3D-Animation. I am lead the web designer of this site and I currently run a Shadowrun game in my free time.</p>
 	  <aside></aside>
 	</article> 
 	<div id="headshot>">
-		<img src="images/head/ashley.jpg" id="ashley-photo" /> <br>
-	    <img src="images/head/mikaela.jpg" id= "mikaela-photo"/> <br>
-		<img src="images/head/sarah.jpg" id="sarah-photo" /> <br>
-		<img src="images/head/kevin.jpg" id="kevin-photo" /> <br>
+		 <br>
+	     <br>
+		 <br>
+		 <br>
 	</div>
 </main>
 </div>

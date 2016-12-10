@@ -3,21 +3,69 @@
 
 body {
 	background-color: #73C9DC;
-	font-family: "Helvetica Neue", Helvetica, Roboto, Sans-serif;
+	font-family: "Helvetica Neue", Helvetica, Arial, Sans-serif;
 }
 #wrapper{
+	width: 100%;
 	align-content: center;
 	text-align: center;
 	background-color: #73C9DC;
 	overflow: hidden;
 }
 #header {
-	padding-top: 180px;
-	background: url(images/backgroundBannerV2.svg) no-repeat;
-	background-size: 100%; 
+	padding-top: 14%;
+	background: url(images/backgroundBannerV2.svg) center center no-repeat;
+	background-size: cover; 
 }
-nav {
-	padding-left: 50px;
+.nav  {
+	list-style: none;
+	margin: 0;
+    padding-left: 40%;
+    overflow: hidden;
+}
+.hide-full{
+	display: none;
+}
+.nav li {
+	float: left;
+	
+}
+li a, .dropbtn {
+    display: inline-block;
+    color: #000;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+    background-color: #73C9DC;
+}
+
+li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #73C9DC;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
 }
 #twitter{
 	float: left;
@@ -27,77 +75,65 @@ nav {
 	float: right;
 	width: 50%;
 }
-#intro {
-	
+img {
+	max-width: 100%;
+	height: auto;
+	margin: 0px 0px 10px 0px;
 }
-#footer{
-		
+
+#intro {
+	width: 50%;
+	padding-left: 30%;
 }
 #footer p{
 	float: left;
 	font-size: 10pt;
-	padding-left: 50px;
+	padding-left: 10%;
 }
-
 #footsocial {
 	padding-right: 50px;
 }
-
 #footsocial img {
 	float: right;
 	
 }
-
 #contact {
 	text-align: left;
-	padding-left: 500px;
+	padding-left: 50%;
 }
-
 #about {
 	clear: both;
-	padding-left: 200px;
-	padding-bottom: 50px;
+	padding-left: 10%;
 	text-align: left;
 }
 .worker {
 	float: left;
-	padding-right:150px;
+	padding-right:15%;
 }
 .worker p {
-	width: 500px;
-	padding-bottom: 150px;
+	width: 25;
+	padding-bottom: 30%;
 }
-
-#about aside {
-	
-}
-
-#headshot {
+.headshot {
 	float: right;
-	padding-left: 300px;
+	padding-left: 20%;
 }
-
 #ashley-photo {
-	
 	padding-bottom: 20px;
 }
-
 #mikaela-photo {
 	padding-top: 20px;
 	padding-bottom: 20px;
 }
-
 #sarah-photo {
 	padding-top: 20px;
 	padding-bottom: 20px;
 }
-
 #kevin-photo {
 	padding-top: 20px;
 }
-
 .gallery {
-	width: 1296px;
+	width: 100%;
 	margin:auto;
 }
 .gallery ul {
@@ -115,8 +151,275 @@ nav {
 	border: 100px, solid, 000;
 	box-shadow: 1px 1px 2px #000;		
 }
-
 #ad {
-	padding-top:300px;
+	padding-top:10%;
+	position: relative;
 	
+}
+
+@media screen and (max-width: 768px){
+	body {
+		background-color: #73C9DC;
+		font-family: "Helvetica Neue", Helvetica, Arial, Sans-serif;
+	}
+	#wrapper{
+		width: 100%;
+		align-content: center;
+		text-align: center;
+		background-color: #73C9DC;
+		overflow: hidden;
+	}
+	.nav  {
+		list-style: none;
+		margin: 0;
+    	padding-left: 30%;
+		padding-top: 15%;
+    	overflow: hidden;
+	}
+	.nav li {
+	float: left;
+	}
+	.hide-mobile{
+		display: none;
+	}
+	.hide-full{
+		display: block;
+	}
+	#twitter{
+		width: 100%;
+		padding-bottom: 5%;
+	}
+	.fb-page{
+		width: 100%;
+	}
+	img {
+		max-width: 100%;
+		height: auto;
+		margin: 0px 0px 10px 0px;
+	}
+	
+	#intro {
+		width: 70%;
+		padding-left: 20%
+	}
+	#footer p{
+		float: left;
+		font-size: 10pt;
+		padding-left: 10%;
+	}
+	#footsocial {
+		padding-right: 50px;
+	}
+	#footsocial img {
+		float: right;
+	
+	}
+	#contact {
+		text-align: left;
+		padding-left: 10%;
+	}
+	#about {
+		clear: both;
+		padding-left: 10%;
+		text-align: left;
+	}
+	.worker {
+		float: left;
+		padding-right:15%;
+	}
+	.worker p {
+		width: 25;
+		padding-bottom: 30%;
+	}
+	.headshot {
+		float: right;
+		padding-left: 20%;
+	}
+	#ashley-photo {
+		padding-bottom: 20px;
+	}
+	#mikaela-photo {
+		padding-top: 20px;
+		padding-bottom: 20px;
+	}
+	#sarah-photo {
+		padding-top: 20px;
+		padding-bottom: 20px;
+	}
+	#kevin-photo {
+		padding-top: 20px;
+	}
+	.gallery {
+		width: 100%;
+		margin:auto;
+	}
+	.gallery ul {
+		list-style: none;
+	}
+	.gallery li{
+		float: left;
+		margin: 1%;
+		
+	}
+	.gallery img {
+		display: block;
+		padding: 5px;
+		background: #37B24A;
+		border: 100px, solid, 000;
+		box-shadow: 1px 1px 2px #000;		
+	}
+	.one-third{
+		width: 47%;
+		
+	}
+	.one-third-second{
+		margin: 0;
+		padding-left: 1%;
+	}
+	.one-third-last{
+		clear:both;
+		float: none;
+		display: block;
+		width: auto;
+		transform: translate(37%);
+	}
+	#ad {
+		padding-top: 2%;
+		margin-top: 75%;
+		position: relative;
+	
+	}
+}
+
+
+@media (max-width : 384px ){
+	body {
+		background-color: #73C9DC;
+		font-family: "Helvetica Neue", Helvetica, Arial, Sans-serif;
+	}
+	#wrapper{
+		width: 100%;
+		align-content: center;
+		text-align: center;
+		background-color: #73C9DC;
+		overflow: hidden;
+	}
+	#header {
+		padding-top: 16%;
+		background: url(images/backgroundBannerV2.svg) center center no-repeat;
+		background-size: cover; 
+		font-size: 10pt;
+	}	
+	.nav  {
+		list-style: none;
+		margin: 0;
+    	padding-left: 0%;
+		padding-top: 15%;
+    	overflow: hidden;
+	}
+	.nav li {
+		float: left;
+		padding-left:2%;
+	}
+	.hide-mobile{
+		display: none;
+	}
+	.hide-full{
+		display: block;
+	}
+	#twitter{
+		width: 100%;
+		padding-top: 5%;
+		padding-bottom: 5%;
+	}
+	.fb-page{
+		width: 100%;
+	}
+	img {
+		max-width: 100%;
+		height: auto;
+		margin: 0px 0px 10px 0px;
+	}
+	
+	#intro {
+		width: 70%;
+		padding-left: 20%;
+	}
+	#footer p{
+		float: left;
+		font-size: 10pt;
+		padding-left: 5%;
+	}
+	#footsocial {
+		padding-right: .5%;
+	}
+	#footsocial img {
+		float: right;
+	
+	}
+	#contact {
+		text-align: left;
+		padding-left: 10%;
+	}
+	#about {
+		clear: both;
+		padding-left: 10%;
+		text-align: left;
+	}
+	.worker {
+		float: left;
+		padding-right:15%;
+	}
+	.worker p {
+		width: 25;
+		padding-bottom: 30%;
+	}
+	.headshot {
+		float: right;
+		padding-left: 20%;
+	}
+	#ashley-photo {
+		padding-bottom: 20px;
+	}
+	#mikaela-photo {
+		padding-top: 20px;
+		padding-bottom: 20px;
+	}
+	#sarah-photo {
+		padding-top: 20px;
+		padding-bottom: 20px;
+	}
+	#kevin-photo {
+		padding-top: 20px;
+	}
+	.gallery {
+		width: 100%;
+		margin-left: -3.5%;
+	}
+	.gallery ul {
+		list-style: none;
+		padding-left: 5%;
+		padding-right: 5%;
+	}
+	.gallery li{
+		float: left;
+		margin: 4px;
+		width: 100%;
+	}
+	.gallery img {
+		display: block;
+		padding: 5px;
+		background: #37B24A;
+		border: 100px, solid, 000;
+		box-shadow: 1px 1px 2px #000;		
+	}
+	#third{
+		float: left;
+		padding-left: .5%;
+	}
+	#ad {
+		padding-top: 2%;
+		position: relative;
+	
+	}
 }

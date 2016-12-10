@@ -11,12 +11,21 @@
 <div id="header">
 <!----<img src="images/BillyGoatsBuffLogo.svg" alt="Billy Goats Buff logo" width="181" height="181"> -->
 <div id="navBar">
-<nav>
-	<a href="index.html">Home</a> |
-	<a href="social.html">Social</a> |
-	<a href="about.html">About Us</a> |
-	<a href="contact.html">Contact</a>
-</nav>
+<ul class="nav">
+	<li><a href="index.html">Home</a></li> 
+	<li><a href="social.html">Social</a></li> 
+	<li class="dropdown">
+		<a href="javascript:void(0)" class="dropbtn hide-mobile" onClick="window.open('about.html', '_self');">About Us</a>
+    	<div class="dropdown-content">
+			<a href="about.html#ashley" class="hide-mobile">Ashley</a>
+     		<a href="about.html#mikaela" class="hide-mobile">Mikaela</a>
+     	 	<a href="about.html#sarah" class="hide-mobile">Sarah</a>
+			<a href="about.html#kevin" class="hide-mobile">Kevin</a>
+    	</div>
+  </li>
+	<li class="hide-full"><a href="about.html">About Us</a></li>
+	<li><a href="contact.html">Contact</a></li>
+</ul>
 <hr>	
 </div>
 
