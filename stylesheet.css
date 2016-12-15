@@ -156,6 +156,9 @@ img {
 	position: relative;
 	
 }
+#video{
+	padding-top: 2%;
+}
 
 @media screen and (max-width: 768px){
 	body {
@@ -289,6 +292,10 @@ img {
 		position: relative;
 	
 	}
+	#video{
+		padding-left: 1%;
+		padding-top: 2%;
+}
 }
 
 
@@ -419,6 +426,11 @@ img {
 	#ad {
 		padding-top: 2%;
 		position: relative;
-	
 	}
+	#video{
+		width: 300px;
+		height: 180px;
+		padding-left: 1%;
+		padding-top: 2%;
+}
 }
