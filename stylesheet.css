@@ -83,7 +83,7 @@ img {
 
 #intro {
 	width: 50%;
-	padding-left: 30%;
+	padding-left: 27%;
 }
 #footer p{
 	float: left;
@@ -134,11 +134,11 @@ img {
 }
 .gallery {
 	width: 100%;
-	margin:auto;
+	margin: auto;
 }
 .gallery ul {
 	list-style: none;
-				
+	margin: 2%;	
 }
 .gallery li{
 	float: left;
