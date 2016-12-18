@@ -299,7 +299,7 @@ img {
 }
 
 
-@media (max-width : 384px ){
+@media screen and (max-width : 384px ){
 	body {
 		background-color: #73C9DC;
 		font-family: "Helvetica Neue", Helvetica, Arial, Sans-serif;
